@@ -1985,7 +1985,7 @@ function Get-NetComputers {
                 $PrimaryDC = ([Array](Get-NetDomainControllers))[0].Name
             }
             catch{
-                $PrimaryDC = $Null
+                $PrimaryDC = $null
             }
 
             try {
